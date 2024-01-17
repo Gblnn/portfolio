@@ -62,7 +62,7 @@ export default function Home(){
                 <div className="page">
                     <div style={{display:"flex", flexFlow:"column", justifyContent:"center", alignItems:"center", gap:"4rem"}}>
                     <h1 id="contact">Get in touch</h1>
-                    <p style={{width:"75%", textAlign:"center"}}>Whether you are starting a project, have business inquiries or just want to say hi, my inbox is always open. So feel free to reach out and I will get back to you as soon as possible</p>
+                    <p className="desc" style={{ textAlign:"center"}}>Whether you are starting a project, have business inquiries or just want to say hi, my inbox is always open. So feel free to reach out and I will get back to you as soon as possible</p>
                     <button className="red btn">Reach out</button>
                     </div>
                     

@@ -143,6 +143,10 @@
   text-align: center;
 }
 
+.desc {
+  width: 75%;
+}
+
 @media (width>=420px) {
   .project {
     width: 35ch;
@@ -153,6 +157,9 @@
   .heading {
     font-size: 4rem;
     line-height: 3.25rem;
+  }
+  .desc {
+    width: 45%;
   }
   .nav {
     position: fixed;
