@@ -1,38 +1,23 @@
+import Hero from "@/components/hero";
+import Nav from "@/components/nav";
 import Project from "@/components/project";
+import { Github, Linkedin } from "lucide-react";
 
 
 export default function Home(){
     return(
         <>
-        <div className="container" style={{border:""}}>
+        <div className="container">
             <div className="scroll-watcher"></div>
             <div style={{width:"100%", height:"100%", border:""}}>
-                <div className="nav">
-                    <div className="desktop-nav">
-                        <a href="#about">About</a>
-                        <a href="#work">Work</a>
-                        <a href="#contact">Contact</a>
-                    </div>
-                    <button style={{marginRight:"2rem", marginLeft:"2rem"}} className="blue btn">📄 Resume</button>
-                </div>
+                <Nav/>
                 <div className="mobile-nav">
                     <a className="nav-item" href="#about">About</a>
                     <a className="nav-item" href="#work">Work</a>
                     <a className="nav-item" href="#contact">Contact</a>
                 </div>
                 <div id="about" className="page">
-                    <div style={{display:"flex",flexFlow:"column",alignItems:"center", justifyContent:"center", border:"", gap:"1rem"}}>
-                        <p style={{textAlign:"center", fontSize:"1.2rem", fontWeight:600, color:"var(--clr-slate600)"}}>Hi, I'm Gokul👋</p>
-                        <h1 className="heading">FRONT-END<br/> DEVELOPER</h1>
-
-                        <div style={{width:"35ch", height:"35ch", background:"var(--nav-color)", position:"absolute",zIndex:"-1", backdropFilter:"blur(35px)"}}></div>
-
-                        <div style={{width:"20ch", height:"20ch", background:"rgba(79 70 229/75%)", position:"absolute",zIndex:"-2",borderRadius:"50%"}}></div>
-                        
-                        <p style={{textAlign:"center", width:"90%", border:""}}>A <strong>Front-end</strong>web developer and a <strong>UI/UX</strong>enthusiast</p>
-                        
-                    </div>
-                    
+                    <Hero/>
                 </div>
 
                 <div id="work" className="page" style={{border:"",width:"100%", height:"fit-content"}}>
@@ -63,6 +48,11 @@ export default function Home(){
                     <div style={{display:"flex", flexFlow:"column", justifyContent:"center", alignItems:"center", gap:"4rem"}}>
                     <h1 id="contact">Get in touch</h1>
                     <p className="desc" style={{ textAlign:"center"}}>Whether you are starting a project, have business inquiries or just want to say hi, my inbox is always open. So feel free to reach out and I will get back to you as soon as possible</p>
+                    <div style={{display:"flex", gap:"1.5rem"}}>
+                    <a href="https://github.com/Gblnn" target="_blank"><Github/></a>
+                    <a href="https://linkedin.com/in/gokulnathiel" target="_blank"><Linkedin/></a>
+                    </div>
+                    
                     <button className="red btn">Reach out</button>
                     </div>
                     
