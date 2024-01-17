@@ -3,7 +3,7 @@
   --clr-indigo: #4f46e5;
   --clr-rose: #e11d48;
   --clr-slate600: #475569;
-  --card-color: rgb(245 245 245);
+  --card-color: rgb(225 225 225);
   --nav-color: rgba(240 240 240 /80%);
   --bio-color: rgba(200 200 200 /40%);
   --color: #020617;
@@ -47,6 +47,15 @@ a {
 
 a:hover {
   color: var(--clr-indigo);
+}
+
+strong {
+  color: var(--clr-indigo);
+  transition: 0.3s;
+}
+
+strong:hover {
+  color: #756fe3;
 }
 
 @media (prefers-color-scheme: dark) {

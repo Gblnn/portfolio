@@ -11,11 +11,11 @@ interface Props {
 
 export default function Project(props:Props) {
     return(
-        <div className="project" style={{border:"1px solid rgba(100 100 100/ 80%)"}}>
+        <div className="project" style={{border:"1px solid rgba(150 150 150/ 70%)"}}>
 
             <div style={{width:"100%", display:"flex", justifyContent:"center",alignItems:"center", flexFlow:"column", border:""}}>
 
-                <div style={{display:"flex",justifyContent:"center",alignItems:"center",border:"", padding:"1rem"}}>
+                <div style={{display:"flex",justifyContent:"center",alignItems:"center",border:"", padding:"0.75rem"}}>
 
                     <div>
                         <img style={{width:"100%", borderRadius:"0.5rem", boxShadow:"1px 1px 20px var(--clr-indigo)"}} src={props.img} />
@@ -25,11 +25,12 @@ export default function Project(props:Props) {
 
                 <div style={{width:"100%", height:"", border:"", padding:"",}}>
 
-                    <div style={{padding:"0rem", margin:"1.25rem", marginTop:"0.25rem", width:""}}>
+                    <div style={{padding:"0rem", margin:"1.25rem", marginTop:"0rem", width:""}}>
 
                         <div style={{display:"flex",  justifyContent:"space-between", border:""}}>
 
                         <div style={{display:"flex",alignItems:"center", gap:"0.25rem",}}>
+
                             <a style={{textDecoration:"none"}} href={props.link} target="_blank">
                             <h3>{props.title}</h3>
                             </a>
@@ -37,11 +38,11 @@ export default function Project(props:Props) {
                             
                         </div>
 
-                        <button style={{padding:"0.25rem", paddingLeft:"0.75rem", paddingRight:"0.75rem"}} className="dark btn"><a href={props.github}></a>Github</button>
+                        {/* <button style={{padding:"0.25rem", paddingLeft:"0.75rem", paddingRight:"0.75rem"}} className="dark btn"><a href={props.github}></a>Github</button> */}
                         
                         
                         </div>
-                        {/* <p style={{marginTop:"1.25rem"}}>{props.desc}</p> */}
+                        <p style={{marginTop:"0.5rem", fontSize:"0.85rem"}}>{props.desc}</p>
                     
                     </div>
                     

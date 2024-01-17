@@ -8,12 +8,22 @@ export default function Home(){
             <div className="scroll-watcher"></div>
             <div style={{width:"100%", height:"100%", border:""}}>
                 <div className="nav">
+                    <div className="desktop-nav">
+                        <a>About</a>
+                        <a>Work</a>
+                        <a>Contact</a>
+                    </div>
                     <button style={{marginRight:"2rem", marginLeft:"2rem"}} className="blue btn">📄 Resume</button>
+                </div>
+                <div className="mobile-nav">
+
                 </div>
                 <div className="page">
                     <div style={{display:"flex",flexFlow:"column", justifyContent:"center", border:"", gap:"0.5rem"}}>
                         <p style={{textAlign:"center", fontSize:"1.2rem", fontWeight:600, opacity:"0.5"}}>Hi, I'm Gokul</p>
                         <h1 className="heading">FRONT-END<br/> DEVELOPER</h1>
+                        <br/>
+                        <p style={{textAlign:"center"}}>A <strong>Front-end</strong>web developer and a <strong>UI/UX</strong>enthusiast</p>
                         
                     </div>
                     
@@ -30,7 +40,7 @@ export default function Home(){
                         
 
                         <div className="project-container" style={{marginTop:"2rem"}}>
-                            <Project img="/coffee.png" title="Coffee" link="https://coffee-light.netlify.app" desc="Coffee is a textual social media app designed with React and typeScript"/>
+                            <Project img="/coffee.png" title="Coffee" link="https://coffee-light.netlify.app" desc="Coffee is a textual social media app written in React and TypeScript"/>
 
                             <Project img="/university-page.png" title="Landing Page" desc="A recreation of HW university landing page written in React and TypeScript"/>
 
