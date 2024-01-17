@@ -1,0 +1,78 @@
+:root {
+  color-scheme: light;
+  --clr-indigo: #4f46e5;
+  --clr-rose: #e11d48;
+  --clr-slate600: #475569;
+  --card-color: rgb(245 245 245);
+  --nav-color: rgba(240 240 240 /80%);
+  --bio-color: rgba(200 200 200 /40%);
+  --color: #020617;
+}
+
+* {
+  font-family: Clash Grotesk, sans-serif;
+  letter-spacing: 0.05rem;
+  color-scheme: dark;
+  margin: 0;
+  padding: 0;
+  line-height: calc(1em + 0.5rem);
+  letter-spacing: 0.05rem;
+  word-spacing: 0.05rem;
+}
+
+body {
+  background-color: rgb(240 240 240);
+  color: #020617;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+strong {
+  margin-right: 0.5rem;
+}
+
+p {
+  user-select: none;
+}
+
+a {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: var(--clr-indigo);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+  }
+
+  body {
+    color-scheme: dark;
+    background: #020617;
+    color: rgba(250 250 250 /65%);
+    --card-color: rgba(30 41 59/ 30%);
+    --nav-color: rgba(2 6 23/ 0.75);
+    --bio-color: rgba(40 40 40 /80%);
+    --color: rgb(220 220 220);
+  }
+}
+
+/* Custom Scrollbar */
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--clr-indigo);
+}
