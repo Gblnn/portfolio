@@ -48,7 +48,7 @@ export default function Home(){
 
                             <Project img="/dashboard.png" title="Dashboard" link="https://dashboard-nine.netlify.app" desc="A highly responsive dashboard design written in React and TypeScript"/>
 
-                            <Project img="/blaze-page.png" title="Blaze" desc="An online store design written in React and TypeScript"/>
+                            <Project img="/blaze-page.png" title="Blaze" desc="An online store design written in React and TypeScript with search filter"/>
                             
                         </div>
                         
