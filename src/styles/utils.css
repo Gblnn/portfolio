@@ -92,7 +92,7 @@
 .project {
   width: 85%;
   background: var(--card-color);
-  border-radius: 0.75rem;
+  border-radius: 1rem;
   box-shadow: 1px 1px 20px rgba(0 0 0/ 50%);
 }
 
@@ -119,11 +119,13 @@
 
 .desktop-nav a {
   font-weight: 600;
+  font-size: 1.1rem;
   text-decoration: none;
 }
 
 .mobile-nav a {
   font-weight: 600;
+  font-size: 1.1rem;
   color: rgba(150 150 150/ 75%);
   text-decoration: none;
 }

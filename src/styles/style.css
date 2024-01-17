@@ -44,6 +44,7 @@ a {
   cursor: pointer;
   transition: 0.3s;
   color: rgba(150 150 150/ 75%);
+  text-decoration: none;
 }
 
 a:hover {

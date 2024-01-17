@@ -24,7 +24,7 @@ export default function Home(){
                     <div style={{display:"flex",flexFlow:"column",alignItems:"center", justifyContent:"center", border:"", gap:"1rem"}}>
                         <p style={{textAlign:"center", fontSize:"1.2rem", fontWeight:600, color:"var(--clr-slate600)"}}>Hi, I'm Gokul👋</p>
                         <h1 className="heading">FRONT-END<br/> DEVELOPER</h1>
-                        <div></div>
+                        
                         <p style={{textAlign:"center", width:"75%"}}>A <strong>Front-end</strong>web developer and a <strong>UI/UX</strong>enthusiast</p>
                         
                     </div>
