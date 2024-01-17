@@ -18,7 +18,10 @@ export default function Project(props:Props) {
                 <div style={{display:"flex",justifyContent:"center",alignItems:"center",border:"", padding:"0.75rem"}}>
 
                     <div>
+                        <a href={props.link} target="_blank">
                         <img style={{width:"100%", borderRadius:"0.5rem"}} src={props.img} />
+                        </a>
+                        
                     </div>    
                 </div>
                 
