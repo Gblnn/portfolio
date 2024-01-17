@@ -40,7 +40,7 @@ export default function Project(props:Props) {
 
                             <button style={{fontSize:"0.8rem",marginRight:"0rem",padding:"0.2rem", paddingLeft:"0.75rem", paddingRight:"0.75rem"}} className="dark btn"><a href={props.github}></a>Github</button>
                         </div>
-                        {/* <p style={{marginTop:"0.5rem", fontSize:"0.85rem"}}>{props.desc}</p> */}
+                        <p style={{marginTop:"0.5rem", fontSize:"0.85rem"}}>{props.desc}</p>
                     
                     </div>
                     
