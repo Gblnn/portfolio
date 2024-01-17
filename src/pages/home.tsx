@@ -24,7 +24,7 @@ export default function Home(){
                     <div className="page-container" style={{border:"", width:"100%", height:"100%"}}>
 
                     <div style={{border:"", marginTop:"3.5rem", marginBottom:"2.5rem"}}>
-                            <h2 style={{textAlign:"center"}}>💼Work</h2>
+                            <h2 style={{textAlign:"center"}}>💼 Work</h2>
                         </div>
                     </div>
                         
