@@ -11,7 +11,7 @@ export default function Home(){
                     <div className="desktop-nav">
                         <a href="#about">About</a>
                         <a href="#work">Work</a>
-                        <a>Contact</a>
+                        <a href="#contact">Contact</a>
                     </div>
                     <button style={{marginRight:"2rem", marginLeft:"2rem"}} className="blue btn">📄 Resume</button>
                 </div>
@@ -44,9 +44,9 @@ export default function Home(){
                         <div className="project-container" style={{marginTop:"1rem"}}>
                             <Project img="/coffee.png" title="Coffee" link="https://coffee-dark.netlify.app" desc="Coffee is a textual social media app written in React and TypeScript"/>
 
-                            <Project img="/university-page.png" title="Landing Page" desc="A recreation of HW university landing page written in React and TypeScript"/>
+                            <Project img="/university-page.png" title="Landing Page" link="https://hw-page.netlify.app" desc="A recreation of HW university landing page written in React and TypeScript"/>
 
-                            <Project img="/dashboard.png" title="Dashboard" desc="A highly responsive dashboard design written in React and TypeScript"/>
+                            <Project img="/dashboard.png" title="Dashboard" link="https://dashboard-nine.netlify.app" desc="A highly responsive dashboard design written in React and TypeScript"/>
 
                             <Project img="/blaze-page.png" title="Blaze" desc="An online store design written in React and TypeScript"/>
                             

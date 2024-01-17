@@ -24,7 +24,6 @@
 
 .blue:hover {
   box-shadow: 1px 1px 20px var(--clr-indigo);
-  scale: 1.025;
 }
 
 .dark {
@@ -48,7 +47,7 @@
   height: 0.25rem;
   position: fixed;
   top: 0;
-  z-index: 10;
+  z-index: 20;
   background-color: var(--clr-rose);
   box-shadow: 1px 1px 10px var(--clr-rose);
   width: 100%;
@@ -131,7 +130,6 @@
 .mobile-nav a {
   font-weight: 600;
   font-size: 1.1rem;
-  color: rgba(120 120 120/ 75%);
   text-decoration: none;
 }
 
