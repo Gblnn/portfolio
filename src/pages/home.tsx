@@ -9,28 +9,30 @@ export default function Home(){
             <div style={{width:"100%", height:"100%", border:""}}>
                 <div className="nav">
                     <div className="desktop-nav">
-                        <a>About</a>
-                        <a>Work</a>
+                        <a href="#about">About</a>
+                        <a href="#work">Work</a>
                         <a>Contact</a>
                     </div>
                     <button style={{marginRight:"2rem", marginLeft:"2rem"}} className="blue btn">📄 Resume</button>
                 </div>
                 <div className="mobile-nav">
-
+                    <a href="#about">About</a>
+                    <a href="#work">Work</a>
+                    <a>Contact</a>
                 </div>
-                <div className="page">
-                    <div style={{display:"flex",flexFlow:"column", justifyContent:"center", border:"", gap:"0.5rem"}}>
+                <div id="about" className="page">
+                    <div style={{display:"flex",flexFlow:"column",alignItems:"center", justifyContent:"center", border:"", gap:"0.5rem"}}>
                         <p style={{textAlign:"center", fontSize:"1.2rem", fontWeight:600, color:"var(--clr-slate600)"}}>Hi, I'm Gokul👋</p>
                         <h1 className="heading">FRONT-END<br/> DEVELOPER</h1>
                         <div></div>
-                        <p style={{textAlign:"center"}}>A <strong>Front-end</strong>web developer and a <strong>UI/UX</strong>enthusiast</p>
+                        <p style={{textAlign:"center", width:"75%"}}>A <strong>Front-end</strong>web developer and a <strong>UI/UX</strong>enthusiast</p>
                         
                     </div>
                     
                 </div>
 
-                <div className="page" style={{border:"",width:"100%", height:"fit-content"}}>
-
+                <div id="work" className="page" style={{border:"",width:"100%", height:"fit-content"}}>
+                    <div style={{height:"4rem"}}></div>
                     <div className="page-container" style={{border:"", width:"100%", height:"100%"}}>
 
                     <div style={{border:"", marginTop:"3.5rem", marginBottom:"2.5rem"}}>

@@ -18,6 +18,7 @@
   line-height: calc(1em + 0.5rem);
   letter-spacing: 0.05rem;
   word-spacing: 0.05rem;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -42,7 +43,7 @@ p {
 a {
   cursor: pointer;
   transition: 0.3s;
-  color: var(--color);
+  color: rgba(150 150 150/ 75%);
 }
 
 a:hover {
@@ -67,7 +68,7 @@ strong:hover {
     color-scheme: dark;
     background: #020617;
     color: rgba(250 250 250 /65%);
-    --card-color: rgba(30 41 59/ 30%);
+    --card-color: rgba(30 41 59/ 20%);
     --nav-color: rgba(2 6 23/ 0.75);
     --bio-color: rgba(40 40 40 /80%);
     --color: rgb(220 220 220);

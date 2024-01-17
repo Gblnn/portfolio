@@ -29,9 +29,9 @@ export default function Project(props:Props) {
 
                         <div style={{display:"flex",  justifyContent:"space-between", border:""}}>
 
-                        <div style={{display:"flex",alignItems:"center", gap:"0.25rem",}}>
+                        <div style={{display:"flex",alignItems:"center", gap:"0.4rem",}}>
 
-                            <a style={{textDecoration:"none"}} href={props.link} target="_blank">
+                            <a style={{textDecoration:"none", color:"var(--color)"}} href={props.link} target="_blank">
                             <h3>{props.title}</h3>
                             </a>
                             <Link width="1.25rem"/>
