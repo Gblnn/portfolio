@@ -47,6 +47,8 @@ export default function Home(){
                             <Project img="/university-page.png" title="Landing Page" desc="A recreation of HW university landing page written in React and TypeScript"/>
 
                             <Project img="/dashboard.png" title="Dashboard" desc="A highly responsive dashboard design written in React and TypeScript"/>
+
+                            <Project img="/blaze-page.png" title="Blaze" desc="An online store design written in React and TypeScript"/>
                             
                         </div>
                         

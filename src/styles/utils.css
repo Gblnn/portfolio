@@ -18,11 +18,13 @@
 
 .blue {
   background-color: var(--clr-indigo);
+  box-shadow: 1px 1px 10px var(--clr-indigo);
   transition: 0.3s;
 }
 
 .blue:hover {
   box-shadow: 1px 1px 20px var(--clr-indigo);
+  scale: 1.025;
 }
 
 .dark {
@@ -31,7 +33,8 @@
 }
 
 .dark:hover {
-  box-shadow: 1px 1px 20px #1e293b;
+  box-shadow: 1px 1px 10px rgba(0 0 0/ 50%);
+  scale: 1.025;
 }
 
 .heading {
@@ -70,6 +73,7 @@
   position: absolute;
   width: 100%;
   height: 6rem;
+  z-index: 10;
 }
 
 .page {
@@ -94,7 +98,7 @@
   width: 85%;
   background: var(--card-color);
   border-radius: 1rem;
-  box-shadow: 1px 1px 10px rgba(0 0 0/ 50%);
+  box-shadow: 1px 1px 10px rgba(0 0 0/ 40%);
 }
 
 .mobile-nav {
