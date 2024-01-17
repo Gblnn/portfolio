@@ -19,7 +19,7 @@ export default function Project(props:Props) {
 
                     <div>
                         <a href={props.link} target="_blank">
-                        <img style={{width:"100%", borderRadius:"0.5rem"}} src={props.img} />
+                        <img style={{width:"100%", borderRadius:"0.4rem"}} src={props.img} />
                         </a>
                         
                     </div>    
