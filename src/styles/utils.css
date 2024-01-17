@@ -111,9 +111,9 @@
   align-items: center;
   gap: 1rem;
   bottom: 0;
-  border-top-right-radius: 1rem;
-  border-top-left-radius: 1rem;
   backdrop-filter: blur(10px);
+  box-shadow: 1px 1px 20px rgba(0 0 0/ 20%);
+  z-index: 10;
 }
 
 .desktop-nav {
