@@ -60,7 +60,7 @@ export default function Home(){
                             <a href="https://linkedin.com/in/gokulnathiel" target="_blank"><Linkedin/></a>
                         </div>
                     
-                        <button className="red btn">Reach out</button>
+                        <button className="red btn"><a style={{color:"white"}} href="mailto:Gokul.nathiel2305@gmail.com" target="_blank" rel="noopener noreferer">Reach out</a></button>
 
                     </div>
                     
