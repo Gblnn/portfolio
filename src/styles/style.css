@@ -43,7 +43,7 @@ p {
 a {
   cursor: pointer;
   transition: 0.3s;
-  color: rgba(150 150 150/ 75%);
+  color: rgba(120 120 120/ 75%);
   text-decoration: none;
 }
 

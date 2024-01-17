@@ -65,7 +65,7 @@
 
 .nav {
   background-color: var(--nav-color);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(15px);
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -110,7 +110,7 @@
   align-items: center;
   gap: 1rem;
   bottom: 0;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(15px);
   box-shadow: 1px 1px 20px rgba(0 0 0/ 20%);
   z-index: 10;
 }
