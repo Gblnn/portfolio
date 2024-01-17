@@ -11,7 +11,7 @@ interface Props {
 
 export default function Project(props:Props) {
     return(
-        <div className="project" style={{border:"1px solid rgba(150 150 150/ 70%)"}}>
+        <div className="project" style={{border:"1px solid rgba(150 150 150/ 40%)"}}>
 
             <div style={{width:"100%", display:"flex", justifyContent:"center",alignItems:"center", flexFlow:"column", border:""}}>
 
