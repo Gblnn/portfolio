@@ -20,9 +20,9 @@ export default function Home(){
                 </div>
                 <div className="page">
                     <div style={{display:"flex",flexFlow:"column", justifyContent:"center", border:"", gap:"0.5rem"}}>
-                        <p style={{textAlign:"center", fontSize:"1.2rem", fontWeight:600, opacity:"0.5"}}>Hi, I'm Gokul</p>
+                        <p style={{textAlign:"center", fontSize:"1.2rem", fontWeight:600, color:"var(--clr-slate600)"}}>Hi, I'm Gokul👋</p>
                         <h1 className="heading">FRONT-END<br/> DEVELOPER</h1>
-                        <br/>
+                        <div></div>
                         <p style={{textAlign:"center"}}>A <strong>Front-end</strong>web developer and a <strong>UI/UX</strong>enthusiast</p>
                         
                     </div>
