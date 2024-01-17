@@ -41,7 +41,7 @@ export default function Home(){
                     </div>
                         
 
-                        <div className="project-container" style={{marginTop:"2rem"}}>
+                        <div className="project-container" style={{marginTop:"1rem"}}>
                             <Project img="/coffee.png" title="Coffee" link="https://coffee-dark.netlify.app" desc="Coffee is a textual social media app written in React and TypeScript"/>
 
                             <Project img="/university-page.png" title="Landing Page" desc="A recreation of HW university landing page written in React and TypeScript"/>
