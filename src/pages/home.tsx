@@ -18,7 +18,7 @@ export default function Home(){
                 <div className="mobile-nav">
                     <a className="nav-item" href="#about">About</a>
                     <a className="nav-item" href="#work">Work</a>
-                    <a className="nav-item">Contact</a>
+                    <a className="nav-item" href="#contact">Contact</a>
                 </div>
                 <div id="about" className="page">
                     <div style={{display:"flex",flexFlow:"column",alignItems:"center", justifyContent:"center", border:"", gap:"1rem"}}>
@@ -61,7 +61,7 @@ export default function Home(){
                 </div>
                 <div className="page">
                     <div style={{display:"flex", flexFlow:"column", justifyContent:"center", alignItems:"center", gap:"4rem"}}>
-                    <h1>Get in touch</h1>
+                    <h1 id="contact">Get in touch</h1>
                     <p style={{width:"75%", textAlign:"center"}}>Whether you are starting a project, have business inquiries or just want to say hi, my inbox is always open. So feel free to reach out and I will get back to you as soon as possible</p>
                     <button className="red btn">Reach out</button>
                     </div>
