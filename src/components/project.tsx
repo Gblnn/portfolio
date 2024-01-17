@@ -18,7 +18,7 @@ export default function Project(props:Props) {
                 <div style={{display:"flex",justifyContent:"center",alignItems:"center",border:"", padding:"0.75rem"}}>
 
                     <div>
-                        <img style={{width:"100%", borderRadius:"0.5rem", boxShadow:"1px 1px 20px var(--clr-indigo)"}} src={props.img} />
+                        <img style={{width:"100%", borderRadius:"0.5rem"}} src={props.img} />
                     </div>    
                 </div>
                 

@@ -16,9 +16,9 @@ export default function Home(){
                     <button style={{marginRight:"2rem", marginLeft:"2rem"}} className="blue btn">📄 Resume</button>
                 </div>
                 <div className="mobile-nav">
-                    <a href="#about">About</a>
-                    <a href="#work">Work</a>
-                    <a>Contact</a>
+                    <a className="nav-item" href="#about">About</a>
+                    <a className="nav-item" href="#work">Work</a>
+                    <a className="nav-item">Contact</a>
                 </div>
                 <div id="about" className="page">
                     <div style={{display:"flex",flexFlow:"column",alignItems:"center", justifyContent:"center", border:"", gap:"1rem"}}>
