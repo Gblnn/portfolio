@@ -8,7 +8,7 @@ export default function Home(){
             <div className="scroll-watcher"></div>
             <div style={{width:"100%", height:"100%", border:""}}>
                 <div className="nav">
-                    <button style={{marginRight:"2rem", marginLeft:"2rem"}} className="blue btn">📄Resume</button>
+                    <button style={{marginRight:"2rem", marginLeft:"2rem"}} className="blue btn">📄 Resume</button>
                 </div>
                 <div className="page">
                     <div style={{display:"flex",flexFlow:"column", justifyContent:"center", border:"", gap:"0.5rem"}}>
