@@ -15,7 +15,11 @@
   cursor: pointer;
   color: white;
 }
-
+.red {
+  background-color: var(--clr-rose);
+  box-shadow: 1px 1px 10px var(--clr-rose);
+  transition: 0.3s;
+}
 .blue {
   background-color: var(--clr-indigo);
   box-shadow: 1px 1px 10px var(--clr-indigo);

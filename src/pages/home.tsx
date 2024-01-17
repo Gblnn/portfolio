@@ -55,7 +55,14 @@ export default function Home(){
                     
                     
                 </div>
-                <div className="page"></div>
+                <div className="page">
+                    <div style={{display:"flex", flexFlow:"column", justifyContent:"center", alignItems:"center", gap:"3rem"}}>
+                    <h2>📫 Get in touch</h2>
+                    <p style={{width:"75%", textAlign:"center"}}>Whether you are starting a project, have business inquiries or just want to say hi, my inbox is always open. So feel free to reach out and I will get back to you as soon as possible</p>
+                    <button className="red btn">Reach out</button>
+                    </div>
+                    
+                </div>
             </div>
         </div>
         
