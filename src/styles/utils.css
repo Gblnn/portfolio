@@ -50,6 +50,12 @@
   font-size: 2.5rem;
   line-height: 2rem;
   font-weight: 700;
+  transition: 0.3s;
+  user-select: none;
+}
+
+.heading:hover {
+  text-shadow: 1px 1px 10px var(--clr-indigo);
 }
 
 .scroll-watcher {
@@ -108,6 +114,15 @@
   background: var(--card-color);
   border-radius: 1rem;
   box-shadow: 1px 1px 10px rgba(0 0 0/ 40%);
+}
+
+.project-link {
+  color: var(--color);
+  transition: 0.3s;
+}
+
+.project-link:hover {
+  color: var(--clr-indigo);
 }
 
 .mobile-nav {

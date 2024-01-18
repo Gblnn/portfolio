@@ -34,7 +34,7 @@ export default function Project(props:Props) {
 
                         <div style={{display:"flex",alignItems:"center", gap:"0.4rem",}}>
 
-                            <a style={{textDecoration:"none", color:"var(--color)"}} href={props.link} target="_blank">
+                            <a className="project-link" style={{textDecoration:"none"}} href={props.link} target="_blank">
                             <h3>{props.title}</h3>
                             </a>
                             <Link width="1rem"/>

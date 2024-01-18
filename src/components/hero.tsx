@@ -3,7 +3,11 @@
 export default function Hero(){
     return(
         <div style={{display:"flex",flexFlow:"column",alignItems:"center", justifyContent:"center",gap:"1rem"}}>
-                        <p style={{textAlign:"center", fontSize:"1.2rem", fontWeight:600, color:"var(--clr-slate600)"}}>Hi, I'm Gokul👋</p>
+                        <div style={{display:"flex", alignItems:"center"}}>
+                            <p style={{textAlign:"center", fontSize:"1.2rem", fontWeight:600, color:"var(--clr-slate600)"}}>Hi, I'm Gokul Nath</p>
+                            <p className="wave">👋</p>
+                            
+                        </div>
                         <h1 className="heading">FRONT-END<br/> DEVELOPER</h1>
 
                         <div style={{width:"35ch", height:"35ch", background:"var(--nav-color)", position:"absolute",zIndex:"-1", backdropFilter:"blur(35px)"}}></div>
