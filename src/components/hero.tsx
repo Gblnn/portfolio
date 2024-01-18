@@ -4,7 +4,7 @@ export default function Hero(){
     return(
         <div style={{display:"flex",flexFlow:"column",alignItems:"center", justifyContent:"center",gap:"1rem"}}>
                         <div style={{display:"flex", alignItems:"center"}}>
-                            <p style={{textAlign:"center", fontSize:"1.2rem", fontWeight:600, color:"var(--clr-slate600)"}}>Hi, I'm Gokul Nath</p>
+                            <p style={{textAlign:"center", fontSize:"1.25rem", fontWeight:600, color:"var(--clr-slate600)"}}>Hi, I'm Gokul Nath</p>
                             <p className="wave">👋</p>
                             
                         </div>
