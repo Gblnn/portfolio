@@ -20,6 +20,11 @@
   box-shadow: 1px 1px 10px var(--clr-rose);
   transition: 0.3s;
 }
+
+.red:hover {
+  box-shadow: 1px 1px 20px var(--clr-rose);
+}
+
 .blue {
   background-color: var(--clr-indigo);
   box-shadow: 1px 1px 10px var(--clr-indigo);
