@@ -6,8 +6,6 @@
 .btn {
   padding: 0.5rem;
   border-radius: 0.5rem;
-  /* margin-left: 2rem;
-  margin-right: 2rem; */
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: 1rem;
@@ -203,10 +201,4 @@
   .project-container {
     width: 95%;
   }
-}
-
-@media (width>=1280px) {
-  /* .project-preview {
-    width: 42ch;
-  } */
 }
