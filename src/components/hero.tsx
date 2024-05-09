@@ -3,7 +3,7 @@
 export default function Hero(){
     return(
         <div style={{display:"flex",flexFlow:"column",alignItems:"center", justifyContent:"center",gap:"1rem"}}>
-                {/* <img src="/Profile.JPG" style={{width:"5rem", borderRadius:"50%"}}/> */}
+                <img src="/Profile.JPG" style={{width:"5rem", borderRadius:"50%"}}/>
                         <div style={{display:"flex", alignItems:"center", gap:"0.5rem"}}>
                         
                             <p style={{textAlign:"center", fontSize:"1.25rem", fontWeight:600, color:"var(--clr-slate600)"}}>Hi, I'm Gokul👋</p>
