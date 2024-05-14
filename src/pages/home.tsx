@@ -9,7 +9,7 @@ export default function Home(){
         <>
         <div className="container">
             <div className="scroll-watcher"></div>
-            <div style={{width:"100%", height:"100%", border:""}}>
+            <div style={{width:"100%", height:"100%"}}>
                 <Nav/>
                 <div className="mobile-nav">
                     <a className="nav-item" href="#about">About</a>
