@@ -65,7 +65,7 @@ img {
 }
 
 img:hover {
-  box-shadow: 1px 1px 20px var(--clr-indigo);
+  /* box-shadow: 1px 1px 20px var(--clr-indigo); */
   scale: 1.005;
 }
 
