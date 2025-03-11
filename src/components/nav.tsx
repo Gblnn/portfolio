@@ -87,7 +87,7 @@ export default function Nav() {
       >
         <a
           style={{ color: "white" }}
-          href="https://drive.google.com/file/d/1o1aarM-jtVN4NcwL10kSU8LRoMDWNK-z/view?usp=sharing"
+          href="https://drive.google.com/file/d/1thWn_BxtRu75wZ1On0oM35iN_oKGsPEy/view?usp=sharing"
           target="_blank"
         >
           📄
