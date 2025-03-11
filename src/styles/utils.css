@@ -159,6 +159,27 @@
 .nav-item {
   width: 6rem;
   text-align: center;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.nav-item::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--clr-indigo);
+  transition: width 0.3s ease;
+}
+
+.nav-item-active {
+  color: var(--clr-indigo);
+}
+
+.nav-item-active::after {
+  width: 100%;
 }
 
 .desc {
@@ -201,4 +222,62 @@
   .project-container {
     width: 95%;
   }
+}
+
+/* Add these styles */
+.carousel-controls {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.project:hover .carousel-controls {
+  opacity: 1;
+}
+
+.carousel-button {
+  background: rgba(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+  backdrop-filter: blur(4px);
+  z-index: 2;
+}
+
+.carousel-button:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-button svg {
+  color: white;
+}
+
+.nav-link {
+  position: relative;
+  transition: color 0.3s;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--clr-indigo);
+  transition: width 0.3s ease;
+}
+
+.nav-link-active {
+  color: var(--clr-indigo);
+}
+
+.nav-link-active::after {
+  width: 100%;
 }
