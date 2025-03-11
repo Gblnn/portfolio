@@ -43,7 +43,7 @@ export default function Hero() {
         <br /> DEVELOPER
       </motion.h1>
 
-      <motion.div
+      <div
         style={{
           width: "35ch",
           height: "35ch",
@@ -53,18 +53,9 @@ export default function Hero() {
           backdropFilter: "blur(35px)",
           borderRadius: "50%",
         }}
-        animate={{
-          scale: [1, 1.05, 1],
-          rotate: [0, 1, 0],
-        }}
-        transition={{
-          duration: 8,
-          repeat: Infinity,
-          ease: "easeInOut",
-        }}
       />
 
-      <motion.div
+      <div
         style={{
           width: "20ch",
           height: "20ch",
@@ -72,15 +63,6 @@ export default function Hero() {
           position: "absolute",
           zIndex: "-2",
           borderRadius: "50%",
-        }}
-        animate={{
-          scale: [1, 1.1, 1],
-          rotate: [0, -2, 0],
-        }}
-        transition={{
-          duration: 10,
-          repeat: Infinity,
-          ease: "easeInOut",
         }}
       />
 
@@ -91,7 +73,7 @@ export default function Hero() {
         transition={{ duration: 0.8 }}
       >
         A <strong>Front-end</strong>web developer and a <strong>UI/UX</strong>
-        enthusiast
+        designer
       </motion.p>
     </motion.div>
   );
