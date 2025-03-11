@@ -112,8 +112,8 @@ export default function Home() {
             <div className="project-container" style={{ marginTop: "1rem" }}>
               <Project
                 img={["/renders/interior-1.png", "/renders/interior-2.png"]}
-                title="Modern Interior"
-                desc="A minimalist interior scene with focus on lighting and materials"
+                title="Interior Design"
+                desc="Minimalist interior design with focus on lighting and materials"
                 imageHeight="250px"
               />
 
@@ -132,7 +132,7 @@ export default function Home() {
                   "/renders/office-4.png",
                 ]}
                 title="Office Space"
-                desc="Interior design of a modern office space"
+                desc="Interior design layout of an office space"
                 imageHeight="250px"
               />
 
