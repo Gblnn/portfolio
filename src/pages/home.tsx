@@ -42,7 +42,7 @@ export default function Home() {
               style={{ width: "100%", height: "100%" }}
             >
               <div style={{ marginTop: "3.5rem", marginBottom: "2.5rem" }}>
-                <h2 style={{ textAlign: "center" }}>💼Projects</h2>
+                <h2 style={{ textAlign: "center" }}>💼 Projects</h2>
               </div>
             </div>
 
