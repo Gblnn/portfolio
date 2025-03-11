@@ -105,7 +105,7 @@ export default function Home() {
                 }}
               >
                 <h2 style={{ textAlign: "center" }}>🎨 Extras</h2>
-                <p style={{ opacity: "0.75" }}>3D Visualiations</p>
+                <p style={{ opacity: "0.75" }}>3D Visualizations</p>
               </div>
             </div>
 
