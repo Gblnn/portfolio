@@ -9,6 +9,7 @@ interface Props {
   link?: string;
   github?: string;
   imageHeight?: string;
+  tag?: string;
 }
 
 export default function Project(props: Props) {
@@ -27,6 +28,7 @@ export default function Project(props: Props) {
           ) : (
             <a href={props.link} target="_blank">
               <motion.img
+                loading="lazy"
                 style={{
                   width: "100%",
                   height: props.imageHeight || "auto",
@@ -60,7 +62,13 @@ export default function Project(props: Props) {
             >
               <h3>{props.title}</h3>
             </a>
-            <Link width="1rem" />
+            {props.tag ? (
+              <p style={{ fontSize: "0.7rem", marginLeft: "0.25rem" }}>
+                {props.tag}
+              </p>
+            ) : (
+              <Link width="1rem" />
+            )}
           </div>
 
           <motion.p

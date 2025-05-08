@@ -1,7 +1,7 @@
 import Hero from "@/components/hero";
 import Nav, { ActiveSectionContext } from "@/components/nav";
 import Project from "@/components/project";
-import { Mail } from "lucide-react";
+import { CodeSquare, Globe, Mail } from "lucide-react";
 import { useContext } from "react";
 
 export default function Home() {
@@ -42,7 +42,17 @@ export default function Home() {
               style={{ width: "100%", height: "100%" }}
             >
               <div style={{ marginTop: "3.5rem", marginBottom: "2.5rem" }}>
-                <h2 style={{ textAlign: "center" }}>💼 Projects</h2>
+                <h2
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "0.5rem",
+                    justifyContent: "center",
+                  }}
+                >
+                  <Globe color="slateblue" />
+                  Landing Pages
+                </h2>
               </div>
             </div>
 
@@ -61,12 +71,19 @@ export default function Home() {
                 desc="A minimal & simple landing page focussed on brand awareness"
               />
 
-              <Project
+              {/* <Project
                 img="/coffee.png"
                 title="Coffee"
                 link="https://coffee-dark.netlify.app"
                 desc="A minimalistic social media app to practice Firebase CRUD"
               />
+
+              <Project
+                img="/dashboard.png"
+                title="Dashboard"
+                link="https://dashboard-nine.netlify.app"
+                desc="A clean dashboard design to practice responsive design"
+              /> */}
 
               {/* <Project
                 img="/university-page.png"
@@ -75,18 +92,60 @@ export default function Home() {
                 desc="A design recreation of HW university landing page written in React and TypeScript"
               /> */}
 
-              <Project
-                img="/dashboard.png"
-                title="Dashboard"
-                link="https://dashboard-nine.netlify.app"
-                desc="A clean dashboard design to practice responsive design"
-              />
-
               {/* <Project
                 img="/blaze-page.png"
                 title="Blaze"
                 desc="An online store design integrated with Firebase firestore and authentication"
               /> */}
+            </div>
+
+            <div className="project-container" style={{ marginTop: "5rem" }}>
+              <div
+                style={{
+                  display: "flex",
+                  flexFlow: "column",
+                  gap: "",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <h1
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "0.5rem",
+                  }}
+                >
+                  <CodeSquare color="salmon" />
+                  PWAs
+                </h1>
+                <p
+                  style={{
+                    fontSize: "0.8rem",
+                    textAlign: "center",
+                    padding: "0 2rem",
+                    marginTop: "0.25rem",
+                  }}
+                >
+                  PWAs are installable standalone web apps designed to run on
+                  any device natively.
+                </p>
+              </div>
+
+              <div className="project-container">
+                <Project
+                  img="pointsale.png"
+                  title="PointSale"
+                  desc="A cloud-based, full fledged point of sale application with offline support."
+                  tag="No Preview"
+                />
+                <Project
+                  img="/timelog.png"
+                  title="Truck Time"
+                  desc="Designed to log shift start, end times, with location data for scenarios where a fixed biometric device is not feasible."
+                  tag="No Preview"
+                />
+              </div>
             </div>
 
             {/* New Extras Section */}
@@ -100,12 +159,22 @@ export default function Home() {
                   marginBottom: "2.5rem",
                   display: "flex",
                   justifyContent: "center",
+                  flexFlow: "column",
                   alignItems: "center",
-                  gap: "1rem",
+                  gap: "",
                 }}
               >
-                <h2 style={{ textAlign: "center" }}>🎨 Extras</h2>
-                <p style={{ opacity: "0.75" }}>3D Visualizations</p>
+                <h2 style={{ textAlign: "center" }}>🎨 Renders</h2>
+                <p
+                  style={{
+                    fontSize: "0.8rem",
+                    textAlign: "center",
+                    padding: "0 2rem",
+                    marginTop: "0.25rem",
+                  }}
+                >
+                  3D Visualizations & Concepts
+                </p>
               </div>
             </div>
 
@@ -151,14 +220,14 @@ export default function Home() {
               <Project
                 img={["/renders/garage-1.png", "/renders/attic-2.png"]}
                 title="Structural Design"
-                desc="Structural design of a Automobile workshop"
+                desc="Structural design of am Automobile workshop"
                 imageHeight="250px"
               />
 
               <Project
                 img={["/renders/attic-1.png", "/renders/attic-3.png"]}
-                title="Concept Strutural Design"
-                desc="Structural design of a Concept Workshop"
+                title="Concept Design"
+                desc="Attic workshop design concept with focus on lighting and materials"
                 imageHeight="250px"
               />
 

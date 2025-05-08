@@ -73,7 +73,7 @@ export default function Hero() {
         transition={{ duration: 0.8 }}
       >
         A <strong>Front-end</strong>web developer and a <strong>UI/UX</strong>
-        designer
+        enthusiast.
       </motion.p>
     </motion.div>
   );
