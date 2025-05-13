@@ -41,18 +41,37 @@ export default function Home() {
               className="page-container"
               style={{ width: "100%", height: "100%" }}
             >
-              <div style={{ marginTop: "3.5rem", marginBottom: "2.5rem" }}>
+              <div
+                style={{
+                  display: "flex",
+                  flexFlow: "column",
+                  gap: "",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
                 <h2
                   style={{
                     display: "flex",
                     alignItems: "center",
                     gap: "0.5rem",
-                    justifyContent: "center",
                   }}
                 >
                   <Globe color="slateblue" />
                   Landing Pages
                 </h2>
+                <p
+                  style={{
+                    fontSize: "0.8rem",
+                    textAlign: "center",
+                    padding: "0 2rem",
+                    marginTop: "0.5rem",
+                    marginBottom: "2rem",
+                  }}
+                >
+                  Landing pages improve online brand presence and visibility,
+                  helps in lead generation and CTR.
+                </p>
               </div>
             </div>
 
