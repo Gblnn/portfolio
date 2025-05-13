@@ -160,7 +160,7 @@ export default function Home() {
                 />
                 <Project
                   img="/timelog.png"
-                  title="Truck Time"
+                  title="Time Logger"
                   desc="Designed to log shift start, end times, with location data for scenarios where a fixed biometric device is not feasible."
                   tag="No Preview"
                 />
