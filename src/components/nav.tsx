@@ -90,7 +90,7 @@ export default function Nav() {
           href="https://drive.google.com/file/d/1thWn_BxtRu75wZ1On0oM35iN_oKGsPEy/view?usp=sharing"
           target="_blank"
         >
-          📄
+          📄 Resume
         </a>
       </motion.button>
     </motion.div>

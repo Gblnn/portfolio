@@ -14,7 +14,15 @@ export default function Hero() {
         gap: "1rem",
       }}
     >
-      {/* <img src="/Profile.JPG" style={{width:"5rem", borderRadius:"50%"}}/> */}
+      {/* <img
+        src="/Untitled.png"
+        style={{
+          width: "5rem",
+          height: "4.9rem",
+          borderRadius: "50%",
+          objectFit: "cover",
+        }}
+      /> */}
       <motion.div
         style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}
         initial={{ opacity: 0 }}
@@ -29,7 +37,7 @@ export default function Hero() {
             color: "var(--clr-slate600)",
           }}
         >
-          Hi, I'm Gokul👋
+          👋Hi, I'm
         </p>
       </motion.div>
 
@@ -39,8 +47,7 @@ export default function Hero() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
       >
-        FRONT-END
-        <br /> DEVELOPER
+        GOKUL NATH
       </motion.h1>
 
       <div
@@ -72,8 +79,8 @@ export default function Hero() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
       >
-        A <strong>Front-end</strong>web developer and a <strong>UI/UX</strong>
-        designer.
+        A <strong>Front-end</strong>web developer, a <strong>UI/UX</strong>
+        designer and a <strong>3D Artist</strong>until A.I takes over.
       </motion.p>
     </motion.div>
   );

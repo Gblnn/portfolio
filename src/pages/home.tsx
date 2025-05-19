@@ -50,6 +50,10 @@ export default function Home() {
                   alignItems: "center",
                 }}
               >
+                <h2 style={{ textAlign: "center" }}>💼What I do</h2>
+                <br />
+                <br />
+                <br />
                 <h2
                   style={{
                     display: "flex",
@@ -205,10 +209,17 @@ export default function Home() {
                 imageHeight="250px"
               />
 
-              <Project
+              {/* <Project
                 img={["/renders/sofa.png"]}
                 title="Product Visualization"
                 desc="Product rendering showcasing materials and environmental lighting"
+                imageHeight="250px"
+              /> */}
+
+              <Project
+                img={["/LLH.png"]}
+                title="Parking Lot Visualization"
+                desc="3D Visualization of a parking lot civil project"
                 imageHeight="250px"
               />
 
@@ -224,17 +235,19 @@ export default function Home() {
                 imageHeight="250px"
               />
 
-              {/* <Project
+              <Project
                 img={[
                   "/renders/mak-1.png",
 
                   "/renders/mak-3.png",
+
+                  "/renders/view_1.png",
                   "/renders/mak-4.png",
                 ]}
-                title="Architectural Visualization"
-                desc="Exterior architectural visualization with emphasis on photorealism"
+                title="Chemical Plant Visualization"
+                desc="Exterior architectural visualization of an upcoming project"
                 imageHeight="250px"
-              /> */}
+              />
 
               <Project
                 img={["/renders/garage-1.png", "/renders/attic-2.png"]}
@@ -243,12 +256,12 @@ export default function Home() {
                 imageHeight="250px"
               />
 
-              <Project
+              {/* <Project
                 img={["/renders/attic-1.png", "/renders/attic-3.png"]}
                 title="Concept Design"
                 desc="Attic workshop design concept with focus on lighting and materials"
                 imageHeight="250px"
-              />
+              /> */}
 
               <Project
                 img={["/renders/cafe-1.png", "/renders/cafe-2.png"]}
